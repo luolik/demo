@@ -109,13 +109,6 @@ window.onbeforeunload = function () {
             $shrink.show();
         })
     });
-    $mainLi.hover(function () {
-        $(this).stop().addClass("pos");
-    },function () {
-        $(this).stop().delay(500).queue(function () {
-            $(this).removeClass("pos");
-        });
-    });
 })();
 
 /*
